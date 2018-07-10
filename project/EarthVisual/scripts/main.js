@@ -1393,11 +1393,11 @@ var ECS;
             indexedMapTexture.magFilter = THREE.NearestFilter;
             indexedMapTexture.minFilter = THREE.NearestFilter;
             //clouds
-            var cloudsMesh = new THREE.Mesh(new THREE.SphereGeometry(radius + 1, segments, segments), new THREE.MeshPhongMaterial({
+            /*var cloudsMesh = new THREE.Mesh(new THREE.SphereGeometry(radius + 1, segments, segments), new THREE.MeshPhongMaterial({
                 map: new THREE.TextureLoader().load('./images/'),
                 transparent: true
             }));
-            rotating.add(cloudsMesh);
+            rotating.add(cloudsMesh);*/
             //load history data
             // for (var i in timeBins) {
             //     var bin = timeBins[i].data;
