@@ -1363,7 +1363,7 @@ var ECS;
             });
             // var mapMaterial = new THREE.MeshPhongMaterial({
             //     map: new THREE.TextureLoader().load('./images/2_no_
-            s_4k.jpg'),
+            //s_4k.jpg'),
             //     bumpMap: new THREE.TextureLoader().load('./images/elev_bump_4k.jpg'),
             //     bumpScale: 0.005,
             //     specularMap: new THREE.TextureLoader().load('./images/water_4k.png'),
