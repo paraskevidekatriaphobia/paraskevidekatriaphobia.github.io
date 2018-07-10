@@ -1394,7 +1394,7 @@ var ECS;
             indexedMapTexture.minFilter = THREE.NearestFilter;
             //clouds
             var cloudsMesh = new THREE.Mesh(new THREE.SphereGeometry(radius + 1, segments, segments), new THREE.MeshPhongMaterial({
-                map: new THREE.TextureLoader().load('./images/fair_clouds_4k.png'),
+                map: new THREE.TextureLoader().load('./images/'),
                 transparent: true
             }));
             rotating.add(cloudsMesh);
