@@ -1300,7 +1300,7 @@ var ECS;
                 var osmSwitchNow = GlobalParams.get("earthParam").LoadOSM;
                 var earthSphere = GlobalParams.get("earthSphere");
                 if (nighttexture) {
-                    earthSphere.material.map = new THREE.TextureLoader().load('./images/nightearth2016.jpg');
+                    earthSphere.material.map = new THREE.TextureLoader().load('./images/map_outline.png');
                     earthSphere.material.needsUpdate = true;
                 }
                 else {
