@@ -1300,7 +1300,7 @@ var ECS;
                 var osmSwitchNow = GlobalParams.get("earthParam").LoadOSM;
                 var earthSphere = GlobalParams.get("earthSphere");
                 if (nighttexture) {
-                    earthSphere.material.map = new THREE.TextureLoader().load('./images/map_outline.png');
+                    earthSphere.material.map = new THREE.TextureLoader().load('./images/nightearth2016.jpg');
                     earthSphere.material.needsUpdate = true;
                 }
                 else {
@@ -1362,8 +1362,7 @@ var ECS;
                 polygonOffsetUnits: 1
             });
             // var mapMaterial = new THREE.MeshPhongMaterial({
-            //     map: new THREE.TextureLoader().load('./images/2_no_
-            //s_4k.jpg'),
+            //     map: new THREE.TextureLoader().load('./images/2_no_clouds_4k.jpg'),
             //     bumpMap: new THREE.TextureLoader().load('./images/elev_bump_4k.jpg'),
             //     bumpScale: 0.005,
             //     specularMap: new THREE.TextureLoader().load('./images/water_4k.png'),
