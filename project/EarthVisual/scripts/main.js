@@ -1487,7 +1487,7 @@ var ECS;
             this.GlobalParams.set("latStamp", 0);
             this.GlobalParams.set("camera", camera);
             this.GlobalParams.set("renderer", renderer);
-            this.GlobalParams.set("cloudsMesh", cloudsMesh);
+            //this.GlobalParams.set("cloudsMesh", cloudsMesh);
             this.GlobalParams.set("tileGroup", tileGroup);
             this.GlobalParams.set("tileGroups", tileGroups);
             this.GlobalParams.set("ZOOM_SHIFT_SIZE", ZOOM_SHIFT_SIZE);
