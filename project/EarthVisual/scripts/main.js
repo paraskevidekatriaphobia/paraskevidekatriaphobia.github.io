@@ -1300,7 +1300,7 @@ var ECS;
                 var osmSwitchNow = GlobalParams.get("earthParam").LoadOSM;
                 var earthSphere = GlobalParams.get("earthSphere");
                 if (nighttexture) {
-                    earthSphere.material.map = new THREE.TextureLoader().load('./images/nightearth2016.jpg');
+                    earthSphere.material.map = new THREE.TextureLoader().load('./images/map_outline.png');
                     earthSphere.material.needsUpdate = true;
                 }
                 else {
@@ -1393,11 +1393,11 @@ var ECS;
             indexedMapTexture.magFilter = THREE.NearestFilter;
             indexedMapTexture.minFilter = THREE.NearestFilter;
             //clouds
-            var cloudsMesh = new THREE.Mesh(new THREE.SphereGeometry(radius + 1, segments, segments), new THREE.MeshPhongMaterial({
+            /*var cloudsMesh = new THREE.Mesh(new THREE.SphereGeometry(radius + 1, segments, segments), new THREE.MeshPhongMaterial({
                 map: new THREE.TextureLoader().load('./images/fair_clouds_4k.png'),
                 transparent: true
             }));
-            rotating.add(cloudsMesh);
+            rotating.add(cloudsMesh);*/
             //load history data
             // for (var i in timeBins) {
             //     var bin = timeBins[i].data;
