@@ -1530,7 +1530,7 @@ var ECS;
             var controls = this.GlobalParams.get("controls");
             var targetPos = this.GlobalParams.get("targetPos");
             this.GlobalParams.set("timeNow", Date.now());
-            cloudMesh.rotation.y += (1 / 16 * (this.GlobalParams.get("timeNow") - this.GlobalParams.get("timeLast"))) / 1000;
+            //cloudMesh.rotation.y += (1 / 16 * (this.GlobalParams.get("timeNow") - this.GlobalParams.get("timeLast"))) / 1000;
             // if (rotateTargetX !== undefined && rotateTargetY !== undefined) {
             //     rotateVX += (rotateTargetX - rotateX) * 0.012;
             //     rotateVY += (rotateTargetY - rotateY) * 0.012;
