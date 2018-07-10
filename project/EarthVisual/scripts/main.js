@@ -1362,7 +1362,8 @@ var ECS;
                 polygonOffsetUnits: 1
             });
             // var mapMaterial = new THREE.MeshPhongMaterial({
-            //     map: new THREE.TextureLoader().load('./images/2_no_clouds_4k.jpg'),
+            //     map: new THREE.TextureLoader().load('./images/2_no_
+            s_4k.jpg'),
             //     bumpMap: new THREE.TextureLoader().load('./images/elev_bump_4k.jpg'),
             //     bumpScale: 0.005,
             //     specularMap: new THREE.TextureLoader().load('./images/water_4k.png'),
@@ -1394,7 +1395,7 @@ var ECS;
             indexedMapTexture.minFilter = THREE.NearestFilter;
             //clouds
             var cloudsMesh = new THREE.Mesh(new THREE.SphereGeometry(radius + 1, segments, segments), new THREE.MeshPhongMaterial({
-                map: new THREE.TextureLoader().load('./images/'),
+                map: new THREE.TextureLoader().load('./images/fair_clouds_4k.png'),
                 transparent: true
             }));
             rotating.add(cloudsMesh);
