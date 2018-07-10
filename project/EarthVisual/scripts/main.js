@@ -1508,7 +1508,7 @@ var ECS;
             var camera = this.GlobalParams.get("camera");
             var renderer = this.GlobalParams.get("renderer");
             var scene = this.GlobalParams.get("scene");
-            var cloudMesh = this.GlobalParams.get("cloudsMesh");
+            //var cloudMesh = this.GlobalParams.get("cloudsMesh");
             var EventListenerGlobalParams = this.MainSystem.OtherSystems.get("eventlistener").GlobalParams;
             var rotateVX = EventListenerGlobalParams.get("rotateVX");
             var rotateVY = EventListenerGlobalParams.get("rotateVY");
